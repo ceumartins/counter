@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {    
+    background-color: rgb(177, 225, 255);
+    padding: 300px;
+}
+
+card {
+    display: flex;
+    width: 400px;
+    min-height: 400px;
+    margin: auto;
+    border-radius: 2%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(121, 203, 254);
+}
+
+#buttonsub {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+    background-color: rgb(241, 214, 214);
+    color: lightcoral;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#buttonsub:hover {    
+    background-color: lightcoral;
+    color: rgb(241, 214, 214);
+}
+
+#buttonsom {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+    background-color: rgb(241, 214, 214);
+    color: lightcoral;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#buttonsom:hover {    
+    background-color: lightcoral;
+    color: rgb(241, 214, 214);
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#winner {
+    display: flex;    
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    height: 30px;
+    width: 120px;
+    border: 2px solid lightcoral;
+    background-color: rgb(241, 214, 214);
+    color: lightcoral;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#buttonsend {
+    height: 30px;
+    width: 80px;
+    font-size: 12pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*
+#buttonsend {
+    height: 30px;
+    width: 80px;
+    border: 2px solid rgb(17, 90, 186);
+    background-color: rgb(88, 126, 207);
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#buttonsend:hover {
+    background-color: rgb(17, 90, 186)
+}*/
